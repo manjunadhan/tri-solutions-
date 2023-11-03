@@ -1,18 +1,157 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
-body, html {
-  height: 100%;
-  line-height: 1.8;
+.tri{
+    font-family: "Raleway", sans-serif 
 }
 
-/* Full height image header */
-.bgimg-3 {
-  background-position: center;
-  background-size: cover; /* change from blank to 'cover' */
-  background-image: url("https://api.img2html.com/api/getfile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFnZW50ZGV2aWw0NUBnbWFpbC5jb20iLCJmaWxlbmFtZSI6IjAucG5nIiwiZXhwIjoyMzI5MTE5OTU3fQ.cMfKMGpBVWzlL7tnLP57BrVOa2gKqQb4bvw2_IjdGPw/0.png");
-  min-height: 100%;
- }
 
-.w3-bar .w3-button {
-  padding: 16px;
+#navItem1 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif ;
+    font-weight: bold;
 }
+
+#navItem2 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+
+.banner-section-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+.custom-button {
+    color: white;
+    background-color: #1a2137;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 4px;
+}
+
+ /* Custom about CSS styles go here */
+ .about-section {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+.about-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-image {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+.foot {
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+  color: #eceaea;
+}
+
+.ecommerce-logo {
+    padding-top: 5%;
+  width: 163px;
+}
+
+.ecommerce-footer-section-icon-container {
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 15px 30px 30px 15px;
+  background-color: #152c3e;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.icon {
+    fill: currentColor;
+
+
+}
+
+.ecommerce-footer-section-address {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ecommerce-footer-section-heading {
+    flex-direction: row;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: .75px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  font-family: "Roboto";
+}
+
+.ecommerce-footer-section-list {
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ecommerce-footer-section-list-item {
+    margin-bottom: 10px;
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+  font-weight: 400;
+}
+
+.hr-line {
+  background-color: #5a7184;
+}
+
+.ecommerce-footer-section-copyright {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
