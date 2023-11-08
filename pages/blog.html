@@ -14,10 +14,25 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="#">Your Blog</a>
-        </div>
+            <a class="navbar-brand" href="#">
+                <h1 class="tri">TRI Solution</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="../pages/index.html">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                   <a class="nav-link" href="about.html" id="navItem2">About</a>
+                 <a class="nav-link" href="#contact" id="navItem4">Contact</a>
+                 <a class="nav-link" href="../pages/blog.html" id="navItem3" >Blog</a>
+                </div>
+            </div>
     </nav>
 
     <!-- Blog Post Section -->
@@ -28,7 +43,7 @@
                     <h2>Post Title 1</h2>
                     <p>Published on <span class="text-muted">October 1, 2023</span></p>
                     <p>This is your first blog post. You can write a detailed article about a specific topic, and it will appear here. You can add text, images, and more.</p>
-                    <a href="blog-post-1.html" class="btn btn-primary">Read More</a>
+                    <a href="" class="btn btn-primary">Read More</a>
                 </div>
 
                 <div class="blog-post">
@@ -57,12 +72,46 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-light text-center py-3">
-        <div class="container">
-            &copy; 2023 Your Blog
+    <!--footer section-->
+    <footer class="foot">
+        <div class="ecommerce-footer-section pt-5 pb-5">
+            <div class="fcontainer">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="text-center text-md-left">
+                            <img src="../src/logo.png" class="ecommerce-logo" alt="Ecommerce Logo" />
+                            <div class="d-flex flex-row justify-content-center justify-content-md-start mt-3 mb-3">
+                                <div class="ecommerce-footer-section-icon-container">
+                                    <i class="fa fa-google icon"></i>
+                                </div>
+                                <div class="ecommerce-footer-section-icon-container">
+                                    <i class="fa fa-twitter icon"></i>
+                                </div>
+                                <div class="ecommerce-footer-section-icon-container">
+                                    <i class="fa fa-instagram icon"></i>
+                                </div>
+                                <div class="ecommerce-footer-section-icon-container">
+                                    <i class="fa fa-linkedin icon"></i>
+                                </div>
+                            </div>
+                            <p class="ecommerce-footer-section-address">
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-center">
+                    Email: tritcontact@gmail.com
+                </h2>
+                <hr class="hr-line" />
+                <div class="text-center">
+                    <i class="fa fa-copyright icon" aria-hidden="true"></i>
+                    <span class="ecommerce-footer-section-copyright">
+                        2023 by team Tri.
+                    </span>
+                </div>
+            </div>
         </div>
-    </footer>
-
     
 </body>
 </html>
