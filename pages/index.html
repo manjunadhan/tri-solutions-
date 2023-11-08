@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splash Screen</title>
-    <link rel="stylesheet" href="../css/splash.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
         <!-- jQuery and Popper.js -->
@@ -44,23 +43,26 @@
                     </a>
                    <a class="nav-link" href="about.html" id="navItem2">About</a>
                  <a class="nav-link" href="#contact" id="navItem4">Contact</a>
-                 <a class="nav-link" href="E:\tri-solutions-\blog.html" id="navItem3" >Blog</a>
+                 <a class="nav-link" href="../pages/blog.html" id="navItem3" >Blog</a>
                 </div>
             </div>
         </div>
     </nav>
 </header>
-<div class="video-background">
+<div class="video-background" id="home">
     <video autoplay loop muted>
         <source src="../src/video.mp4" type="video/mp4">
              </video>
           
     </div>
     <div class="text-overlay">
-        <h1> Welcome to Your IT Solution Company! We are a leading provider of IT solutions for
+        <h1 class="videotext"> The Right It Solutions! We are a leading provider of IT solutions for
              businesses across the globe. Our dedicated team of experts specializes invarious fields, 
             including software development, cybersecurity, cloud computing, and more.</h1>
+        <a  href="../pages/about.html"   <button type="button" class="btn btn-warning">Discover</button></a>
     </div>
+    
+
 <script src="../js/script.js"></script>
 </body>
 </html>

@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
         const splashScreen = document.querySelector(".splash-screen");
         splashScreen.style.display = "none";
-    }, 3000); // 3000 milliseconds (3 seconds) delay
+    }, 1000); // 1000 milliseconds (1 seconds) delay
 });
 

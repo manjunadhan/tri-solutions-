@@ -3,6 +3,10 @@
     font-family: "Raleway", sans-serif 
 }
 
+nav{
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
 
 #navItem1 {
     color: #323f4b;
@@ -31,6 +35,7 @@
 
 }
 
+/* button css */
 .text-overlay {
   position: absolute;
   top: 50%;
@@ -42,21 +47,12 @@
   border-radius: 10px;
 }
 
-h1 {
-  font-size: 63px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.videotext{
+  font-size: 36px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
 }
-.custom-button {
-    color: white;
-    background-color: #1a2137;
-    font-family: "Roboto";
-    font-size: 18px;
-    font-weight: 500;
-    width: 130px;
-    height: 45px;
-    border-width: 0;
-    border-radius: 4px;
-}
+
 /* video css style go here */
 
 .video-background {
@@ -75,143 +71,52 @@ h1 {
   height: 100%;
 }
 
-
- /* Custom about CSS styles go here */
- .about-section {
-    background-color: #f8f8f8;
-    padding: 80px 0;
-}
-.about-heading {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-.about-description {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-.about-image {
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-/* Footer Styles */
-.foot {
-    background-color: #181818;
-    padding: 20px;
-    text-align: center;
-  color: #eceaea;
+.splash-screen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255); /* Choose your background color or image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
 }
 
-.ecommerce-logo {
-    padding-top: 5%;
-  width: 163px;
-}
-
-.ecommerce-footer-section-icon-container {
-    justify-content: space-between;
-    align-items: center;
-    display: inline-block;
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  padding: 15px 30px 30px 15px;
-  background-color: #152c3e;
-  margin-right: 8px;
-  margin-bottom: 8px;
-}
-
-.icon {
-    fill: currentColor;
-
+.splash-content {
+  text-align: center;
+  color: #000000;
+  font-family: "Comic Sans MS", cursive; /* Set the font family to Comic Sans */
 
 }
 
-.ecommerce-footer-section-address {
-  color: #959ead;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 400;
+.spls {
+  font-size: 56px;
+  margin-bottom: 20px;
 }
 
-.ecommerce-footer-section-heading {
-    flex-direction: row;
-    display: inline;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: .75px;
-    line-height: 24px;
-    color: #ffffff;
-    margin-bottom: 10px;
-  font-family: "Roboto";
+p {
+  font-size: 86px;
 }
 
-.ecommerce-footer-section-list {
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+/* button style css */
+.btn.btn-warning {
+  background-color: #ff9900; /* Change to your desired background color */
+  border: none;
+  color: #fff; /* Change to your desired text color */
+  padding: 10px 20px; /* Adjust the padding as needed */
+  margin: auto;
+  border-radius: 20px; /* Adjust the value to control the roundness of the corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition for hover effect */
 
-.ecommerce-footer-section-list-item {
-    margin-bottom: 10px;
-    color: #959ead;
-    font-family: "Roboto";
-    font-size: 16px;
-    line-height: 24px;
-  font-weight: 400;
-}
-
-.hr-line {
-  background-color: #5a7184;
-}
-
-.ecommerce-footer-section-copyright {
-  color: #959ead;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 5px;
-}
-
-/* about 2 section*/
-
-.trending-blogs-section-heading {
-  color: #1f2933;
-  font-family: "Roboto";
-  font-size: 36px;
-  font-weight: 700;
-}
-
-.trending-blogs-card-title {
-  color: #959ead;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.trending-blogs-card-description {
-  color: #323f4b;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.trending-blogs-card-link {
-  color: #1754a1;
-  font-family: "Roboto";
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.view-all-button {
-  color: #ffffff;
-  background-color: #1754a1;
-  font-family: "Roboto";
-  font-size: 18px;
-  font-weight: 500;
-  width: 173px;
-  height: 56px;
-  border-width: 0;
-  border-radius: 4px;
+  /* Additional styles for when the button is hovered */
+  &:hover {
+      background-color: #ffcc00; /* Change to your desired hover background color */
+  }
 }

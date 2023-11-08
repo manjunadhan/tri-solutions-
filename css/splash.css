@@ -23,10 +23,12 @@ body {
 }
 
 .spls {
-    font-size: 56px;
+    font-size: 66px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 p {
     font-size: 86px;
+    font-weight: bold;
 }

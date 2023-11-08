@@ -1,0 +1,196 @@
+.tri{
+    font-family: "Raleway", sans-serif 
+}
+#navItem1 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif ;
+    font-weight: bold;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+
+
+/* Contact Section Styles */
+.contact {
+    margin-left: 130px;
+    margin-bottom: 60px;
+    margin-right: 160px;
+    padding-top: 50px;
+  }
+  
+  .card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px;
+  }
+  
+  .card2 {
+    margin: 0px 40px;
+  }
+  
+  .border-line {
+    border-right: 1px solid #e0e0e0;
+  }
+  
+  .line {
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+  }
+  
+  .or {
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+  }
+  
+  ::placeholder {
+    color: #bdbdbd;
+    opacity: 1;
+    font-weight: 300;
+  }
+  
+  input,
+  textarea {
+    padding: 15px 140px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-top: 5px;
+    width: 100%;
+    color: #138781;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    box-shadow: none !important;
+    outline: 1px solid #138781 !important;
+    outline-width: 0;
+  }
+  
+  button:focus {
+    box-shadow: none;
+    outline-width: 0;
+  }
+  
+  .button {
+    background-color: #1e1e2c;
+    color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  .button:hover {
+    background-color: #000;
+    color: white;
+  }
+  
+  .icon-link:hover {
+    cursor: pointer;
+  }
+
+  
+  /* Footer Styles */
+.foot {
+    padding: 20px;
+    text-align: center;
+  color: #fff;
+  background-color: black;
+
+}
+
+.ecommerce-logo {
+    padding-top: 5%;
+  width: 163px;
+}
+
+.ecommerce-footer-section-icon-container {
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 15px 30px 30px 15px;
+  background-color: #152c3e;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.icon {
+    fill: currentColor;
+
+
+}
+
+.ecommerce-footer-section-address {
+    flex: 1;
+    margin-left: 20px;
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ecommerce-footer-section-heading {
+    flex-direction: row;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: .75px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  font-family: "Roboto";
+}
+
+.ecommerce-footer-section-list {
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ecommerce-footer-section-list-item {
+    margin-bottom: 10px;
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+  font-weight: 400;
+}
+
+.hr-line {
+  background-color: #5a7184;
+}
+
+.ecommerce-footer-section-copyright {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+  
+  
