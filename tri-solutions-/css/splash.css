@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.splash-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255); /* Choose your background color or image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.splash-content {
+    text-align: center;
+    color: #000000;
+    font-family: "Comic Sans MS", cursive; /* Set the font family to Comic Sans */
+
+}
+
+.spls {
+    font-size: 66px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 86px;
+    font-weight: bold;
+}
