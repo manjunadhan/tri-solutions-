@@ -131,25 +131,86 @@
     color: #666;
     margin-top: 20px;
 }
-/* footer section*/
-
-.footer {
-  background-color: #333; /* Background color of the footer */
-  color: #fff; /* Text color in the footer */
-  padding: 10px 0; /* Padding to add space around the copyright text */
-  margin-top: 20px; /* Add margin at the top of the footer section */
+/* Footer Styles */
+.foot {
+    padding: 20px;
+    text-align: center;
+  color: #fff;
+  background-color: black;
 
 }
 
-.footer a {
-  color: #fff; /* Text color for links within the footer (if any) */
-  text-decoration: none; /* Remove underlines from links */
+.ecommerce-logo {
+    padding-top: 5%;
+  width: 163px;
 }
 
-/* Center the copyright text */
-.footer text-center {
-  text-align: center;
-  font-size: 14px; /* Adjust the font size as needed */
+.ecommerce-footer-section-icon-container {
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 15px 30px 30px 15px;
+  background-color: #152c3e;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.icon {
+    fill: currentColor;
+
+
+}
+
+.ecommerce-footer-section-address {
+    flex: 1;
+    margin-left: 20px;
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ecommerce-footer-section-heading {
+    flex-direction: row;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: .75px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  font-family: "Roboto";
+}
+
+.ecommerce-footer-section-list {
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ecommerce-footer-section-list-item {
+    margin-bottom: 10px;
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+  font-weight: 400;
+}
+
+.hr-line {
+  background-color: #5a7184;
+}
+
+.ecommerce-footer-section-copyright {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
 }
 /* Responsive adjustments */
 @media (max-width: 768px) {
