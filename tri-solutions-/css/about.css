@@ -1,0 +1,225 @@
+.banner-heading {
+    color: white;
+    font-family:"Raleway", sans-serif ;
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+
+.tri{
+    font-family: "Raleway", sans-serif 
+}
+
+
+#navItem1 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif ;
+    font-weight: bold;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family:  "Raleway", sans-serif;
+    font-weight: bold;
+
+}
+
+.teamimg {
+    border-radius: 50%;
+    background-color: black;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .text-container {
+    padding-left: 20px; /* Add spacing between the image and text */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Change to your desired font */
+  }
+  
+  h3 {
+    font-size: 24px; /* Customize the heading font size */
+    margin: 0;
+  }
+  
+  p {
+    font-size: 16px; /* Customize the paragraph font size */
+    margin: 0;
+  }
+  
+   /* Custom about CSS styles go here */
+ .about-section {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+.about-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-image {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* trending */
+
+.trending-blogs-section-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .trending-blogs-card-title {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .trending-blogs-card-description {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .trending-blogs-card-link {
+    color: #1754a1;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+  }
+ /* team */ 
+  .team-section {
+    margin-bottom: 20px; /* Add margin at the bottom of the section */
+
+}
+
+.team-heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.team-description {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+}
+/* footer section*/
+
+.footer {
+  background-color: #333; /* Background color of the footer */
+  color: #fff; /* Text color in the footer */
+  padding: 10px 0; /* Padding to add space around the copyright text */
+  margin-top: 20px; /* Add margin at the top of the footer section */
+
+}
+
+.footer a {
+  color: #fff; /* Text color for links within the footer (if any) */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+/* Center the copyright text */
+.footer text-center {
+  text-align: center;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .banner-heading {
+      font-size: 30px; /* Adjust the font size for smaller screens */
+  }
+
+  .tri {
+      font-size: 18px; /* Adjust the font size for smaller screens */
+  }
+
+  #navItem1,
+  #navItem2,
+  #navItem3,
+  #navItem4 {
+      font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+
+  .about-section {
+      padding: 40px 0; /* Adjust the padding for smaller screens */
+  }
+
+  .about-heading {
+      font-size: 28px; /* Adjust the font size for smaller screens */
+  }
+
+  .about-description {
+      font-size: 16px; /* Adjust the font size for smaller screens */
+      margin-bottom: 20px; /* Adjust the margin for smaller screens */
+  }
+
+  .about-image {
+      border-radius: 4px; /* Adjust the border radius for smaller screens */
+  }
+
+  .trending-blogs-section-heading {
+      font-size: 28px; /* Adjust the font size for smaller screens */
+  }
+
+  .trending-blogs-card-title {
+      font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+
+  .trending-blogs-card-description {
+      font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+
+  .trending-blogs-card-link {
+      font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+
+  .team-section {
+      margin-bottom: 10px; /* Adjust the margin for smaller screens */
+  }
+
+  .team-heading {
+      font-size: 18px; /* Adjust the font size for smaller screens */
+  }
+
+  .team-description {
+      font-size: 14px; /* Adjust the font size for smaller screens */
+      margin-top: 10px; /* Adjust the margin for smaller screens */
+  }
+
+  .footer {
+      padding: 5px 0; /* Adjust the padding for smaller screens */
+      margin-top: 10px; /* Adjust the margin for smaller screens */
+  }
+
+  .footer text-center {
+      font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+}
