@@ -151,3 +151,75 @@
   text-align: center;
   font-size: 14px; /* Adjust the font size as needed */
 }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .banner-heading {
+      font-size: 30px; /* Adjust the font size for smaller screens */
+  }
+
+  .tri {
+      font-size: 18px; /* Adjust the font size for smaller screens */
+  }
+
+  #navItem1,
+  #navItem2,
+  #navItem3,
+  #navItem4 {
+      font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+
+  .about-section {
+      padding: 40px 0; /* Adjust the padding for smaller screens */
+  }
+
+  .about-heading {
+      font-size: 28px; /* Adjust the font size for smaller screens */
+  }
+
+  .about-description {
+      font-size: 16px; /* Adjust the font size for smaller screens */
+      margin-bottom: 20px; /* Adjust the margin for smaller screens */
+  }
+
+  .about-image {
+      border-radius: 4px; /* Adjust the border radius for smaller screens */
+  }
+
+  .trending-blogs-section-heading {
+      font-size: 28px; /* Adjust the font size for smaller screens */
+  }
+
+  .trending-blogs-card-title {
+      font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+
+  .trending-blogs-card-description {
+      font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+
+  .trending-blogs-card-link {
+      font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+
+  .team-section {
+      margin-bottom: 10px; /* Adjust the margin for smaller screens */
+  }
+
+  .team-heading {
+      font-size: 18px; /* Adjust the font size for smaller screens */
+  }
+
+  .team-description {
+      font-size: 14px; /* Adjust the font size for smaller screens */
+      margin-top: 10px; /* Adjust the margin for smaller screens */
+  }
+
+  .footer {
+      padding: 5px 0; /* Adjust the padding for smaller screens */
+      margin-top: 10px; /* Adjust the margin for smaller screens */
+  }
+
+  .footer text-center {
+      font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+}

@@ -1,38 +1,19 @@
-
-.tri{
-    font-family: "Raleway", sans-serif 
+.tri {
+  font-family: "Raleway", sans-serif;
+  margin-left: 15px;
 }
 
-nav{
+nav {
   background-color: rgba(255, 255, 255, 0.5);
-
 }
 
-#navItem1 {
-    color: #323f4b;
-    font-family:  "Raleway", sans-serif ;
-    font-weight: bold;
-}
-
-#navItem2 {
-    color: #323f4b;
-    font-family:  "Raleway", sans-serif;
-    font-weight: bold;
-
-}
-
-#navItem3 {
-    color: #323f4b;
-    font-family:  "Raleway", sans-serif;
-    font-weight: bold;
-
-}
-
+#navItem1,
+#navItem2,
+#navItem3,
 #navItem4 {
-    color: #323f4b;
-    font-family:  "Raleway", sans-serif;
-    font-weight: bold;
-
+  color: #323f4b;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 
 /* button css */
@@ -47,9 +28,9 @@ nav{
   border-radius: 10px;
 }
 
-.videotext{
+.videotext {
   font-size: 36px;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
 }
 
@@ -92,7 +73,6 @@ body {
   text-align: center;
   color: #000000;
   font-family: "Comic Sans MS", cursive; /* Set the font family to Comic Sans */
-
 }
 
 .spls {
@@ -105,18 +85,289 @@ p {
 }
 
 /* button style css */
+/* button style css */
 .btn.btn-warning {
-  background-color: #ff9900; /* Change to your desired background color */
+  background-color: #ff9900;
+  /* Change to your desired background color */
   border: none;
-  color: #fff; /* Change to your desired text color */
-  padding: 10px 20px; /* Adjust the padding as needed */
+  color: #fff;
+  /* Change to your desired text color */
+  padding: 8px 20px;
+  /* Adjust the padding as needed for a smaller size */
   margin: auto;
-  border-radius: 20px; /* Adjust the value to control the roundness of the corners */
+  padding: 15px;
+  border-radius: 15px;
+  /* Adjust the value to control the roundness of the corners */
   cursor: pointer;
-  transition: background-color 0.3s; /* Add a smooth transition for hover effect */
-
+  transition: background-color 0.3s;
+  /* Add a smooth transition for hover effect */
+  font-weight: bolder;
   /* Additional styles for when the button is hovered */
-  &:hover {
-      background-color: #ffcc00; /* Change to your desired hover background color */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .spls {
+      font-size: 36px;
   }
+
+  p {
+      font-size: 56px;
+  }
+
+  .videotext {
+      font-size: 24px;
+  }
+}
+.tri {
+  font-family: "Raleway", sans-serif;
+  margin-left: 15px;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#navItem1,
+#navItem2,
+#navItem3,
+#navItem4 {
+  color: #323f4b;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+/* button css */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.videotext {
+  font-size: 36px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+/* video css style go here */
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensures that the video is displayed behind other content */
+}
+
+/* Ensure the video covers the entire container and doesn't overflow */
+.video-background video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.splash-screen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255); /* Choose your background color or image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.splash-content {
+  text-align: center;
+  color: #000000;
+  font-family: "Comic Sans MS", cursive; /* Set the font family to Comic Sans */
+}
+
+.spls {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 86px;
+}
+
+/* button style css */
+/* button style css */
+.btn.btn-warning {
+  background-color: #ff9900;
+  /* Change to your desired background color */
+  border: none;
+  color: #fff;
+  /* Change to your desired text color */
+  padding: 8px 20px;
+  /* Adjust the padding as needed for a smaller size */
+  margin: auto;
+  padding: 15px;
+  border-radius: 15px;
+  /* Adjust the value to control the roundness of the corners */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* Add a smooth transition for hover effect */
+  font-weight: bolder;
+  /* Additional styles for when the button is hovered */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .spls {
+      font-size: 36px;
+  }
+
+  p {
+      font-size: 56px;
+  }
+
+  .videotext {
+      font-size: 24px;
+  }
+}
+
+.tri {
+  font-family: "Raleway", sans-serif;
+  margin-left: 15px;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#navItem1,
+#navItem2,
+#navItem3,
+#navItem4 {
+  color: #323f4b;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+/* button css */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.videotext {
+  font-size: 36px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+/* video css style go here */
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensures that the video is displayed behind other content */
+}
+
+/* Ensure the video covers the entire container and doesn't overflow */
+.video-background video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.splash-screen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255); /* Choose your background color or image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.splash-content {
+  text-align: center;
+  color: #000000;
+  font-family: "Comic Sans MS", cursive; /* Set the font family to Comic Sans */
+}
+
+.spls {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 86px;
+}
+
+/* button style css */
+/* button style css */
+.btn.btn-warning {
+  background-color: #ff9900;
+  /* Change to your desired background color */
+  border: none;
+  color: #fff;
+  /* Change to your desired text color */
+  padding: 8px 20px;
+  /* Adjust the padding as needed for a smaller size */
+  margin: auto;
+  padding: 8px 15px;
+  border-radius: 15px;
+  /* Adjust the value to control the roundness of the corners */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* Add a smooth transition for hover effect */
+  font-weight: bolder;
+  /* Additional styles for when the button is hovered */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .spls {
+      font-size: 36px;
+  }
+
+  p {
+      font-size: 56px;
+  }
+
+  .videotext {
+      font-size: 24px;
+  }
+  
+  .btn.btn-warning {
+    padding: 8px 10px;
+    /* Adjust the padding for smaller screens */
+  }
+  
 }

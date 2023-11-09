@@ -109,7 +109,25 @@
   .icon-link:hover {
     cursor: pointer;
   }
+  .contact form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
 
+.contact form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
   
   /* Footer Styles */
 .foot {
@@ -192,5 +210,34 @@
   font-weight: 400;
   margin-bottom: 5px;
 }
-  
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tri {
+      font-size: 18px;
+      /* Adjust the font size for smaller screens */
+  }
+
+  #navItem1,
+  #navItem2,
+  #navItem3,
+  #navItem4 {
+      font-size: 16px;
+      /* Adjust the font size for smaller screens */
+  }
+
+  .contact {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-top: 20px;
+  }
+
+  .ecommerce-footer-section-address,
+  .ecommerce-footer-section-heading,
+  .ecommerce-footer-section-list-item,
+  .ecommerce-footer-section-copyright {
+      font-size: 14px;
+      /* Adjust the font size for smaller screens */
+  }
+}
   
